@@ -1,0 +1,83 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F5E4;
+    height: 100vh;
+}
+
+.container{
+
+    border-radius: 10px;
+    background-color: #3F497F;
+    width: 50%;
+    height: 70%;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.weatherData{
+
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+
+}
+
+.weatherData p {
+    color: #F7C04A;
+}
+.weatherData h2 {
+    color: #A7727D;
+}
+
+
+form{
+    width: 100%;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30%;
+}
+
+.formContainer{
+    width: 100%;
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.formContainer select{
+    width: 50%;
+    height: 40px;
+    outline: none;
+    border-radius: 6px;
+}
+.formContainer label{
+
+    color: #F8F5E4;
+    
+}
+
+form button{
+    background-color: #F8F5E4;
+    width: 20%;
+    height: 40px;
+    border-style: none;
+    border-radius: 6px;
+    color: #3F497F;
+}
